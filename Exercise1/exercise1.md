@@ -17,5 +17,7 @@ minikube service hello-k8s
 ## Output
 
 ![alt text](<Screenshot 2026-08-22 114114.png>)
+
 ![alt text](<Screenshot 2026-08-22 114127.png>)
+
 ![alt text](<Screenshot 2026-08-22 114047.png>)
