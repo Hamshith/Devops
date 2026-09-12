@@ -119,3 +119,29 @@ NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
 kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   9m2s
 ```
 
+### Make Changes into the \flask-deployment.yaml and execute the following command :
+
+```bash
+kubectl apply -f flask-deployment.yaml
+```
+##### Output : 
+
+```bash
+deployment.apps/flask-app unchanged
+service/flask-app-service created
+```
+Once the service is created run the following command to make the service accessible
+
+```bash
+minikube service flask-app-service --url
+```
+
+##### Output :
+```bash
+http://127.0.0.1:42091
+❗  Because you are using a Docker driver on linux, the terminal needs to be open to run it.
+```
+
+### Output Screenshot : 
+
+![alt text](image.png)
