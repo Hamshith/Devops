@@ -45,3 +45,13 @@ python3 -m unittest discover -s .
 ```
 
 ## Screenshots
+
+![alt text](localhost_8080_job_Python-MultiStage-Pipeline_configure.png)
+
+---
+
+![alt text](image.png)
+
+---
+
+![alt text](localhost_8080_job_Python-MultiStage-Pipeline_3_console.png)
