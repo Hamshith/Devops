@@ -29,3 +29,19 @@ Push the files to github
 6. Add git repo link and configure the branch it refers to
 7. Give the path of the Jenkinsfile the buid should refer to
 
+## Exec into the jenkins container terminal and run the following commands :
+
+```bash
+docker exec -it -u root <container-id> bash
+```
+
+```bash
+apt-get update
+apt install python3
+apt install pip
+apt install python3.11-venv
+apt install python3-flask
+python3 -m unittest discover -s .
+```
+
+## Screenshots
